@@ -1,5 +1,5 @@
 import sys, os
-sys.patch.append(os.patch.join(os.patch.dirname(__file__), "..")) # para poder importar biblioteca.py
+sys.path.append(os.path.join(os.path.dirname(__file__), "..")) # para poder importar biblioteca.py
 
 import pytest
 from biblioteca import Biblioteca

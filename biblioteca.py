@@ -1,7 +1,7 @@
 import json
 from modelos import Libro
 
-class biblioteca:
+class Biblioteca:
     def __init__(self, archivo="datos.json"):
         self.archivo = archivo
         self.libros = []
